@@ -3,6 +3,8 @@ ROR::Application.routes.draw do
   get "about" => "pages#about"
   get "project" => "pages#project"
   get "movies" => "pages#movies"
+  get "drafts" => "pages#drafts"
+
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

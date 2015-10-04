@@ -8,7 +8,10 @@ class PagesController < ApplicationController
   def project
   end
 
-  def Movies
+  def drafts
   end
-  
+
+  def movies
+  end
+    
  end
